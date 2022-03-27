@@ -1,0 +1,91 @@
+body {
+  display: flex;
+  flex-flow: column;
+  background-image: url("./images/bg.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Varela Round", sans-serif;
+  user-select: none;
+}
+
+section {
+  text-align: center;
+  background-color: rgba(209, 209, 209, 0.7);
+  border-radius: 50px;
+  margin-top: 15vh;
+}
+
+h1 {
+  font-family: "Pacifico", cursive;
+  text-align: center;
+  font-size: 72px;
+  margin: 0.3em 0;
+}
+
+table {
+  border-collapse: separate;
+}
+
+th {
+  align-items: center;
+  box-sizing: border-box;
+  width: 45px;
+  height: 30px;
+}
+
+.image-box {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.image-box img {
+  width: 150px;
+}
+
+.yearAndMonth {
+  display: inline-flex;
+  font-size: 25px;
+  font-weight: 700;
+  margin: auto 0;
+  margin-bottom: 20px;
+}
+
+.calendar {
+  display: flex;
+  justify-content: center;
+}
+
+.calendar .arrow {
+  display: flex;
+  width: 70px;
+  height: 40px;
+  font-size: 20px;
+  margin: auto 0;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.today.dayOfTheWeek {
+  display: flex;
+  font-size: 50px;
+  font-weight: 700;
+  justify-content: center;
+}
+
+.today.date {
+  display: flex;
+  font-size: 55px;
+  font-weight: 700;
+  justify-content: center;
+  margin: 15px 0;
+  margin-bottom: 40px;
+}
+
+.calendarEmphasis {
+  width: 30px;
+  height: 30px;
+  border: 2px solid royalblue;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
